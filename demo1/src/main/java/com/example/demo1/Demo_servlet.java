@@ -29,6 +29,6 @@ public class Demo_servlet extends HttpServlet {
         String name = req.getParameter("nameInput");
         System.out.println("Name = "+name);
         PrintWriter out = resp.getWriter();
-        out.println("Hello "+name);
+        out.println("<h1> Hello "+name+"</h1>");
     }
 }
